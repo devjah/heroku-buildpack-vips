@@ -42,6 +42,17 @@ RUN apt-get update && apt-get install -y \
   libpango1.0-dev \
   python-gi-dev \
   libgirepository1.0-dev
+  libjpeg-turbo8-dev \
+  libgif-dev \
+  liborc-0.4-dev \
+  libcfitsio-dev \
+  libnifti-dev \
+  libheif-dev \
+  libopenslide-dev \
+  libopenexr-dev \
+  libmatio-dev \
+  libmagickwand-dev \
+  libimagequant-dev
 
 # Used by the libvips test suite
 RUN apt-get update && apt-get install -y \
