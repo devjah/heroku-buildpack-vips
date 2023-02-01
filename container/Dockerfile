@@ -99,7 +99,7 @@ RUN wget ${DE265_URL}/v${DE265_VERSION}/libde265-${DE265_VERSION}.tar.gz \
   && make V=0 \
   && make install
 
-ARG HEIF_VERSION=1.10.0
+ARG HEIF_VERSION=1.14.2
 ARG HEIF_URL=https://github.com/strukturag/libheif/releases/download
 
 RUN wget ${HEIF_URL}/v${HEIF_VERSION}/libheif-${HEIF_VERSION}.tar.gz \
